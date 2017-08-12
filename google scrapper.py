@@ -6,7 +6,7 @@ import os
 os.chdir("D:\\KEK\\webExp\\")
 #-------------------------------------------
 #getting raw site data to mine
-res = requests.get("http://www.google.com")
+res = requests.get("http://www.google.com")#<--add any URL here 
 try:
     res.raise_for_status()
 except Exception as exc:
